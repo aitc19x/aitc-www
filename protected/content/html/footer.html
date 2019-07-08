@@ -1,0 +1,44 @@
+    <div style="padding-top: 75px; display: inline" class="col-12"></div>
+    <nav class="navbar absolute-bottom navbar-light bg-white">
+            <div class="ml-auto">
+                <div class="btn-group dropup">
+                    <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span><i class="fas fa-globe-americas"></i></span>
+                        <span class="footer-lg">&nbsp;{{ switch_lang }}</span>
+                    </button>
+                    <div class="dropdown-menu dropdown-switch-lang">
+                        <a class="dropdown-item switch-lang-en" onclick="changeLang_en()">English (United States)</a>
+                        <a class="dropdown-item switch-lang-ja" onclick="changeLang_ja()">日本語</a>
+                        <a class="dropdown-item switch-lang-zh" onclick="changeLang_zh()">中文</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-auto">
+                <span class="footer-lg">
+                    {{ copyright }}
+                </span>
+                <span class="footer-sm">
+                    &copy; AITC
+                </span>
+            </div>
+            <div class="mr-auto">
+                <span class="footer-lg">{{ follow_us }}</span>
+                <div class="btn-group">
+                    <a class="btn btn-light" role="button" href="mailto:amsjxnu-itclub@mail.cstu.gq" target="_blank"><i class="fas fa-envelope" alt="Email"></i></a>
+                    <a class="btn btn-light" role="button" href="https://twitter.com/aitc19x" target="_blank"><i class="fab fa-twitter" alt="Twitter"></i></a>
+                    <a class="btn btn-light" role="button" href="https://git.cstu.gq/CSB/AMSJXNU" target="_blank"><i class="fab fa-git-alt" alt="Git"></i></a>
+                    <a class="btn btn-light" role="button" href="https://2244517522.qzone.qq.com" target="_blank"><i class="fab fa-qq" alt="Qzone (Chinese)"></i></a>
+                </div>
+            </div>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="/js/animation.js"></script>
+    <script src="/js/language.js"></script>
+    <script src="/js/page.js"></script>
+</body>
+</html>
