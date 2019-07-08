@@ -12,5 +12,5 @@ function bilibili_get(string $aid, string $cid) {
     $data = curl_exec($ch);
     curl_close($ch);
     $data = json_decode($data, true);
-    return $data["data"]["durl"]["0"]["url"];
+    return str_replace("http://", "https://", $data["data"]["durl"]["0"]["url"]);
 }
