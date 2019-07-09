@@ -15,7 +15,7 @@
     <?php
     if (isset($_GET["page"])) $url = $type . "/page/" . $_GET["page"];
     else $url = $type;
-    if ($type != "about") echo(dynamic_element_handle("post_header", array(
+    if ($type != "about") echo(dynamic_element_handle("post-header", array(
         "mark_start" => ($id > 9 ? "" : "<mark>"),
         "mark_end" => ($id > 9 ? "" : "</mark>"),
         "back" => translation_get("back"),

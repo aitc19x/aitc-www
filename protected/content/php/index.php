@@ -15,7 +15,7 @@
     <br>
     <h2 class="col-md-8 mx-auto text-center"><?php echo(translation_get("explore")) ?></h2>
     <br>
-    <div class="col-10 col-md-8 mx-auto row justify-content-around">
+    <div class="col-10 col-md-8 mx-auto row justify-content-around text-center">
         <div class="col-6 col-md-3 home-block">
             <a href="/news">
                 <img src="/img/home-news.png">

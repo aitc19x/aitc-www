@@ -17,7 +17,7 @@
     if (isset($_GET["page"])) $url = "ondemand/page/" . $_GET["page"];
     else $url = "ondemand";
     $meta = post_meta_get("ondemand", $id);
-    echo(dynamic_element_handle("post_header", array(
+    echo(dynamic_element_handle("post-header", array(
         "mark_start" => ($id > 9 ? "" : "<mark>"),
         "mark_end" => ($id > 9 ? "" : "</mark>"),
         "back" => translation_get("back"),
