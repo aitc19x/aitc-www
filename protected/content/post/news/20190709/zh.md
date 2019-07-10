@@ -1,13 +1,17 @@
 # 开站
 
-（因为稿件未完成，本文暂用英文，我们会尽快提供中文版本）
+2019年7月9日，江西师大附中信息技术社（AITC）的官方网站正式制作完成上线！
 
-This website opens from today. Both club members and outsiders can use this site. The introduction of the features on this site is as follows:
+这里首先感谢为制作该网站付出努力的所有成员，还有使该网站顺利完制作的所有第三方资源。
 
-- News: stories around this club
-- Technology: articles about implementing high technologies
-- On Demand: video courses about tests and competitions
+自信息技术社成立以来，从简简单单的兴趣社团蜕变为专业性社团，经历了几届社长管理运行，成为了现在的AITC。在2019年，信息技术社到达了逐渐走向鼎盛时期的开端；也在这一年的7月9日，江西师大江西师大附中信息技术社的第一个官方网站正式上线。
 
-If we have recommended or emergency posts, we will sticky them to top.
+现在的信息技术社现在的目标渐渐明确，主要提供计算机竞赛（ACSL），国际考试（APCS），及应用程序开发（PHP Symfony、Git等）相关的课程及培训，满足社员各方面需求。该网站上也在逐渐填充和完善线上课程（与线下同步），并提供大量仅供学习交流的优质资源。
 
-You can check the features mentioned above now.
+如果我们有任何可以开放给社外的朋友们帮忙的地方，我们也会在本网站上发布相关消息。并且我们会在有推荐的条目或紧急情况时将其置顶显示。
+
+除了线下参与社团活动了解该社团，新上线的网站也会及时更新动态。“让更多人了解我们的社团”是此网站的标语之一。
+
+以上是信息技术社官方网站的基本信息。
+
+时值酷暑，再次感谢团队所有成员的辛勤付出，向他们致敬！
