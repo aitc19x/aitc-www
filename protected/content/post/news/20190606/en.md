@@ -1,5 +1,9 @@
 # Activity Report
 
+Author: Ruixuan Tu
+
+---
+
 - Form: Teaching
 - Content: Object-oriented Programming of AP Java Subset, and Assignment 2 and 3.
 

@@ -1,5 +1,9 @@
 # Ending of Cultural Festival 2019
 
+Author: Ruixuan Tu
+
+---
+
 Today's culture festival had ended.<br>
 Although there was light rain, almost all of the participants enjoyed our activities. The most popular one is our game named Roll a Ball.<br>
 We have also distributed stickers which can be exchanged into gifts.<br>

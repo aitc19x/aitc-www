@@ -33,3 +33,7 @@ $(".home-block").hover(function() {
         opacity: 0.5
     }, 250);
 });
+
+$(".navbar-toggler").click(function() {
+    $(".post-sep").toggle();
+});
