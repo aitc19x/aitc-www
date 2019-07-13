@@ -10,7 +10,7 @@ First of all, we would convey our sincere appreciation to members of the develop
 
 Generations of administrators has passed from the establishment of this club, thus we transformed into a group of zealous geeks.
 
-Rised after the fall these years, the club is becoming more and more prosperous in the year of 2019. In July 9th of this symbolic year, this website have turned online, for the mission of experience exchanging, making friends, and propaganda of our club.
+Rised after the fall these years, the club is becoming more and more prosperous in the year of 2019. In July 9th of this symbolic year, this website have turned online, for the mission to exchange experience, make friends, and spread our words further.
 
 Our directions are also clearing: providing cool studying materials about competitive programming (ACSL), American placement tests (APCS), and application development (PHP Symfony, Git, etc.), in order to fulfill the need of both club members and outsiders. Our online documents and videos are synchronized with offline activities.
 

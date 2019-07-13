@@ -25,7 +25,8 @@ function header_show(string $title, string $current, array $links) {
         "lang" => translation_get("lang_code"),
         "title" => $title . " - " . translation_get("club_name"),
         "club_name" => translation_get("club_name"),
-        "navbar_items" => navbar_item_generator($links, $current)
+        "navbar_items" => navbar_item_generator($links, $current),
+        "meta_description" => translation_get("meta_description")
     )));
     $glob_top = markdown_read("global", "top");
     if ($glob_top != "The post does not exist.") {
