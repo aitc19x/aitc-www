@@ -7,10 +7,13 @@ $url = explode("/", $url);
 $file = $_SERVER['DOCUMENT_ROOT'] . "/protected/content/post/" . $url[0] . "/" . $url[1] . "/" . $url[2] . ".png";
 
 if (file_exists($file)) {
+    top_back:
     header('Content-Type: image/png');
     header('Content-Length: ' . filesize($file));
     readfile($file);
     exit;
 } else {
+    $file = $_SERVER['DOCUMENT_ROOT'] . "/protected/content/post/top-" . $url[0] . "/" . $url[1] . "/" . $url[2];
+    if (file_exists($file)) goto top_back;
     echo("File not found.");
 }

@@ -53,9 +53,9 @@ function footer_show() {
 
 function card_show(string $type, string $id, array $links) {
     echo(dynamic_element_handle("card", array(
-        "addition" => ($id > 9 ? "" : "card-top"),
+        "addition" => (substr($id, 0, 3) != "top" ? "" : "card-top"),
         "title" => post_meta_get($type, $id)["title-" . translation_get("lang_code")],
-        "subtitle" => ($id > 9 ? date_get(substr($id, 0, 8)) : translation_get("top")),
+        "subtitle" => (substr($id, 0, 3) != "top" ? date_get(substr($id, 0, 8)) : translation_get("top")),
         "links" => card_links_generator($links)
     )));
 }

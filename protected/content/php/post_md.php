@@ -15,11 +15,12 @@
     <?php
     if (isset($_GET["page"])) $url = $type . "/page/" . $_GET["page"];
     else $url = $type;
+    if (markdown_read($type, $id) == "The post does not exist.") $id = "top-" . $id;
     if ($type != "about") echo(dynamic_element_handle("post-header", array(
-        "mark_start" => ($id > 9 ? "" : "<mark>"),
-        "mark_end" => ($id > 9 ? "" : "</mark>"),
+        "mark_start" => (substr($id, 0, 3) != "top" ? "" : "<mark>"),
+        "mark_end" => (substr($id, 0, 3) != "top" ? "" : "</mark>"),
         "back" => translation_get("back"),
-        "type" => ($id > 9 ? "" : translation_get("top") . " ") . translation_get($type),
+        "type" => (substr($id, 0, 3) != "top" ? "" : translation_get("top") . " ") . translation_get($type),
         "title" => post_meta_get($type, $id)["title-" . translation_get("lang_code")],
         "url" => $url
     )));
@@ -28,7 +29,9 @@
     };
     ?>
     <div class="col-md-8 mx-auto">
-        <?php echo(markdown_read($type, $id)) ?>
+        <?php
+            echo(markdown_read($type, $id))
+        ?>
     </div>
 </body>
 

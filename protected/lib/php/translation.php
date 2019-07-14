@@ -35,7 +35,7 @@ $translation_japanese = array(
     "about" => "について",
     "view" => "見る",
     "back" => "戻す",
-    "top" => "トップ",
+    "top" => "おすすめ",
     "explore" => "AITCを探索する",
     "meta_description" => "学生オタクを組むパソコン部"
 );

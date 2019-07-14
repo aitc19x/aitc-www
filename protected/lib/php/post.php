@@ -22,7 +22,7 @@ function markdown_read(string $type, string $title) {
             $lang = "ja";
             if (markdown_check_content($type, $title, "ja") == 0) {
                 $lang = "zh";
-                if (markdown_check_content($type, $title, "zh")) {
+                if (markdown_check_content($type, $title, "zh") == 0) {
                     return "The post does not exist.";
                 }
             }
@@ -40,5 +40,6 @@ function markdown_list(string $type) {
 }
 
 function post_meta_get(string $type, string $title) {
+    if (!file_exists($_SERVER['DOCUMENT_ROOT'] . "/protected/content/post/". $type . "/" . $title . "/data.json")) return null;
     return json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/protected/content/post/". $type . "/" . $title . "/data.json"), true);
 }

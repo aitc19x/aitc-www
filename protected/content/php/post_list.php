@@ -27,7 +27,7 @@
             if (sizeof($list) % 20 != 0 || $num_page == 0) $num_page++;
             for ($index = ($page - 1) * 20; $index < $size; $index++) {
                 card_show($type, $list[$index], array(
-                    "view" => "/" . $type . ($type == "ondemand" ? "/vid/" : "/post/") . $list[$index]
+                    "view" => "/" . $type . ($type == "ondemand" ? "/vid/" : "/post/") . str_replace("top-", "", $list[$index])
                 ));
             }
         ?>

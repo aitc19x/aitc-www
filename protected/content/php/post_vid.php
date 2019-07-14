@@ -17,11 +17,15 @@
     if (isset($_GET["page"])) $url = "ondemand/page/" . $_GET["page"];
     else $url = "ondemand";
     $meta = post_meta_get("ondemand", $id);
+    if ($meta == null) {
+        $id = "top-" . $id;
+        $meta = post_meta_get("ondemand", $id);
+    }
     echo(dynamic_element_handle("post-header", array(
-        "mark_start" => ($id > 9 ? "" : "<mark>"),
-        "mark_end" => ($id > 9 ? "" : "</mark>"),
+        "mark_start" => (substr($id, 0, 3) != "top" ? "" : "<mark>"),
+        "mark_end" => (substr($id, 0, 3) != "top" ? "" : "</mark>"),
         "back" => translation_get("back"),
-        "type" => ($id > 9 ? "" : translation_get("top") . " ") . translation_get("ondemand"),
+        "type" => (substr($id, 0, 3) != "top" ? "" : translation_get("top") . " ") . translation_get("ondemand"),
         "title" => $meta["title-" . translation_get("lang_code")],
         "url" => $url
     )));
