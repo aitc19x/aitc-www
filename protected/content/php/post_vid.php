@@ -3,29 +3,31 @@
     include_once($_SERVER['DOCUMENT_ROOT'] . "/protected/lib/php/translation.php");
     include_once($_SERVER['DOCUMENT_ROOT'] . "/protected/lib/php/post.php");
     include_once($_SERVER['DOCUMENT_ROOT'] . "/protected/lib/php/video.php");
-    header_show(translation_get("ondemand"), "ondemand", array(
+    header('Access-Control-Allow-Origin: *');
+    header_show(translation_get($type), $type, array(
         "home" => "/",
         "news" => "/news",
         "technology" => "/technology",
         "ondemand" => "/ondemand",
+        "easyeng" => "/easyeng",
         "about" => "/about"
     ));
 ?>
 
 <body>
     <?php
-    if (isset($_GET["page"])) $url = "ondemand/page/" . $_GET["page"];
-    else $url = "ondemand";
-    $meta = post_meta_get("ondemand", $id);
+    if (isset($_GET["page"])) $url = $type . "/page/" . $_GET["page"];
+    else $url = $type;
+    $meta = post_meta_get($type, $id);
     if ($meta == null) {
         $id = "top-" . $id;
-        $meta = post_meta_get("ondemand", $id);
+        $meta = post_meta_get($type, $id);
     }
     echo(dynamic_element_handle("post-header", array(
         "mark_start" => (substr($id, 0, 3) != "top" ? "" : "<mark>"),
         "mark_end" => (substr($id, 0, 3) != "top" ? "" : "</mark>"),
         "back" => translation_get("back"),
-        "type" => (substr($id, 0, 3) != "top" ? "" : translation_get("top") . " ") . translation_get("ondemand"),
+        "type" => (substr($id, 0, 3) != "top" ? "" : translation_get("top") . " ") . translation_get($type),
         "title" => $meta["title-" . translation_get("lang_code")],
         "url" => $url
     )));
@@ -50,17 +52,24 @@
                 }
                 echo("</div>");
             }
-            switch (translation_get("lang_code")) {
-                case "zh":
-                    echo(dynamic_element_handle("vid-zh", array(
-                        "vid_url" => bilibili_get($meta["embed-bilibili"]["aid"], $meta["embed-bilibili"]["cid"])
-                    )));
-                    break;
-                default:
-                    echo(dynamic_element_handle("vid-glob", array(
-                        "vid_url" => $meta["embed-youtube"]
-                    )));
-                    break;
+            if ($type == "ondemand") {
+                switch (translation_get("lang_code")) {
+                    case "zh":
+                        echo(dynamic_element_handle("vid-zh", array(
+                            "vid_url" => bilibili_get($meta["embed-bilibili"]["aid"], $meta["embed-bilibili"]["cid"])
+                        )));
+                        break;
+                    default:
+                        echo(dynamic_element_handle("vid-glob", array(
+                            "vid_url" => $meta["embed-youtube"]
+                        )));
+                        break;
+                }
+            }
+            else if ($type == "easyeng") {
+                echo(dynamic_element_handle("vid-tv", array(
+                    "vid_url" => $meta["url"]
+                )));
             }
         ?>
     </div>

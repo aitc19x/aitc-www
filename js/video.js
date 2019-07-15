@@ -10,3 +10,14 @@ function videoPlay(url) {
         flvPlayer.load();
     }
 }
+
+function livePlay(url) {
+    if(Hls.isSupported()) {
+        var hls = new Hls();
+        hls.loadSource(url);
+        hls.attachMedia(document.getElementById('videoElement'));
+        hls.on(Hls.Events.MANIFEST_PARSED,function() {
+          video.play();
+      });
+    }
+}
