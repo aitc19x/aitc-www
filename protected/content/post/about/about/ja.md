@@ -17,6 +17,7 @@
 - hls.js
 - jQuery
 - KanBiliBili API
+- NASA TV
 - NBC News
 - NHK WORLD-JAPAN
 - Parsedown

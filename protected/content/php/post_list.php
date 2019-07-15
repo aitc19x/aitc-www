@@ -1,6 +1,17 @@
 <?php
     include_once($_SERVER['DOCUMENT_ROOT'] . "/protected/lib/php/global.php");
     include_once($_SERVER['DOCUMENT_ROOT'] . "/protected/lib/php/post.php");
+
+    function vid_or_post($id) {
+        global $type;
+        if ($type == "ondemand") return true;
+        if ($type == "easyeng") {
+            if (markdown_read($type, $id) != "The post does not exist.") return false;
+            return true;
+        }
+        return false;
+    }
+
     header_show(translation_get($type), $type, array(
         "home" => "/",
         "news" => "/news",
@@ -28,7 +39,7 @@
             if (sizeof($list) % 20 != 0 || $num_page == 0) $num_page++;
             for ($index = ($page - 1) * 20; $index < $size; $index++) {
                 card_show($type, $list[$index], array(
-                    "view" => "/" . $type . (($type == "ondemand" || $type == "easyeng") ? "/vid/" : "/post/") . str_replace("top-", "", $list[$index])
+                    "view" => "/" . $type . (vid_or_post($list[$index]) ? "/vid/" : "/post/") . str_replace("top-", "", $list[$index])
                 ));
             }
         ?>

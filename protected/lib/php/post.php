@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . "/protected/lib/php/translation.php");
 include_once($_SERVER['DOCUMENT_ROOT'] . "/protected/lib/php/Parsedown.php");
 
-function markdown_check_content(string $type, string $title, string $lang) {
-    if (file_exists($_SERVER['DOCUMENT_ROOT'] . "/protected/content/post/". $type . "/" . $title . "/" . $lang . ".md")) {
-        if (file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/protected/content/post/". $type . "/" . $title . "/" . $lang . ".md") == "") return 2;
+function markdown_check_content(string $type, string $id, string $lang) {
+    if (file_exists($_SERVER['DOCUMENT_ROOT'] . "/protected/content/post/". $type . "/" . $id . "/" . $lang . ".md")) {
+        if (file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/protected/content/post/". $type . "/" . $id . "/" . $lang . ".md") == "") return 2;
         else return 1;
     }
     else {
@@ -13,22 +13,22 @@ function markdown_check_content(string $type, string $title, string $lang) {
     }
 }
 
-function markdown_read(string $type, string $title) {
+function markdown_read(string $type, string $id) {
     $lang = translation_get("lang_code");
-    if (markdown_check_content($type, $title, $lang) == 2) return "The post does not exist.";
-    if (markdown_check_content($type, $title, $lang) == 0) {
+    if (markdown_check_content($type, $id, $lang) == 2) return "The post does not exist.";
+    if (markdown_check_content($type, $id, $lang) == 0) {
         $lang = "en";
-        if (markdown_check_content($type, $title, "en") == 0) {
+        if (markdown_check_content($type, $id, "en") == 0) {
             $lang = "ja";
-            if (markdown_check_content($type, $title, "ja") == 0) {
+            if (markdown_check_content($type, $id, "ja") == 0) {
                 $lang = "zh";
-                if (markdown_check_content($type, $title, "zh") == 0) {
+                if (markdown_check_content($type, $id, "zh") == 0) {
                     return "The post does not exist.";
                 }
             }
         }
     }
-    $markdown = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/protected/content/post/". $type . "/" . $title . "/" . $lang . ".md");
+    $markdown = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/protected/content/post/". $type . "/" . $id . "/" . $lang . ".md");
     $Parsedown = new Parsedown();
     return $Parsedown->text($markdown);
 }
@@ -39,7 +39,7 @@ function markdown_list(string $type) {
     return $files;
 }
 
-function post_meta_get(string $type, string $title) {
-    if (!file_exists($_SERVER['DOCUMENT_ROOT'] . "/protected/content/post/". $type . "/" . $title . "/data.json")) return null;
-    return json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/protected/content/post/". $type . "/" . $title . "/data.json"), true);
+function post_meta_get(string $type, string $id) {
+    if (!file_exists($_SERVER['DOCUMENT_ROOT'] . "/protected/content/post/". $type . "/" . $id . "/data.json")) return null;
+    return json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/protected/content/post/". $type . "/" . $id . "/data.json"), true);
 }

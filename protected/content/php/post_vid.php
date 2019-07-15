@@ -67,9 +67,15 @@
                 }
             }
             else if ($type == "easyeng") {
-                echo(dynamic_element_handle("vid-tv", array(
-                    "vid_url" => $meta["url"]
-                )));
+                if (isset($meta["embed-youtube"])) {
+                    echo(dynamic_element_handle("vid-glob", array(
+                        "vid_url" => $meta["embed-youtube"]
+                    )));
+                } else {
+                    echo(dynamic_element_handle("vid-tv", array(
+                        "vid_url" => $meta["url"]
+                    )));
+                }
             }
         ?>
     </div>
