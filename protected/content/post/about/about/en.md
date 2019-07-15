@@ -10,10 +10,16 @@ Hello, here is AMSJXNU IT Club in China. We are studying competitive programming
 #### Thanks
 - BiliBili
 - Bootstrap
+- CBSN
+- CGTN
 - flv.js
 - Font Awesome
+- hls.js
 - jQuery
 - KanBiliBili API
+- NBC News
+- NHK WORLD-JAPAN
 - Parsedown
 - Plyr
+- VOA
 - YouTube
