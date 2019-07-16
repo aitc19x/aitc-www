@@ -16,6 +16,7 @@
 
 <body>
     <?php
+    $flag = false;
     if (isset($_GET["page"])) $url = $type . "/page/" . $_GET["page"];
     else $url = $type;
     $meta = post_meta_get($type, $id);
@@ -23,6 +24,8 @@
         $id = "top-" . $id;
         $meta = post_meta_get($type, $id);
     }
+    if ($meta == null) $flag = true;
+    if ($meta["title-" . translation_get("lang_code")] == "" && !$flag) $flag = true;
     echo(dynamic_element_handle("post-header", array(
         "mark_start" => (substr($id, 0, 3) != "top" ? "" : "<mark>"),
         "mark_end" => (substr($id, 0, 3) != "top" ? "" : "</mark>"),
@@ -34,11 +37,12 @@
     ?>
     <div class="col-md-8 mx-auto">
         <?php
-            if (isset($meta["note-" . translation_get("lang_code")])) {
+            if ($flag) echo("This video does not exist.");
+            if (isset($meta["note-" . translation_get("lang_code")]) && !$flag) {
                 if ($meta["note-" . translation_get("lang_code")] != "") $note_available = true;
                 else $note_available = false;
             } else $note_available = true;
-            if ((isset($meta["note-en"]) || isset($meta["note-ja"]) || isset($meta["note-zh"])) && $note_available) {
+            if ((isset($meta["note-en"]) || isset($meta["note-ja"]) || isset($meta["note-zh"])) && $note_available && !$flag) {
                 echo("<div class='alert alert-primary' role='alert'>");
                 if (isset($meta["note-" . translation_get("lang_code")])) echo($meta["note-" . translation_get("lang_code")]);
                 else {
@@ -52,7 +56,7 @@
                 }
                 echo("</div>");
             }
-            if ($type == "ondemand") {
+            if ($type == "ondemand" && !$flag) {
                 switch (translation_get("lang_code")) {
                     case "zh":
                         echo(dynamic_element_handle("vid-zh", array(
@@ -66,7 +70,7 @@
                         break;
                 }
             }
-            else if ($type == "easyeng") {
+            else if ($type == "easyeng" && !$flag) {
                 if (isset($meta["embed-youtube"])) {
                     echo(dynamic_element_handle("vid-glob", array(
                         "vid_url" => $meta["embed-youtube"]
