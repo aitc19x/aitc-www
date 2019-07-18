@@ -26,13 +26,15 @@
     }
     if ($meta == null) $flag = true;
     if ($meta["title-" . translation_get("lang_code")] == "" && !$flag) $flag = true;
+    $m_top = (markdown_read("global", "top") == "The post does not exist.") ? 70 : 90;
     echo(dynamic_element_handle("post-header", array(
         "mark_start" => (substr($id, 0, 3) != "top" ? "" : "<mark>"),
         "mark_end" => (substr($id, 0, 3) != "top" ? "" : "</mark>"),
         "back" => translation_get("back"),
         "type" => (substr($id, 0, 3) != "top" ? "" : translation_get("top") . " ") . translation_get($type),
         "title" => $meta["title-" . translation_get("lang_code")],
-        "url" => $url
+        "url" => $url,
+        "m_top" => $m_top
     )));
     ?>
     <div class="col-md-8 mx-auto">

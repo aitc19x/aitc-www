@@ -29,8 +29,18 @@ function header_show(string $title, string $current, array $links) {
         "meta_description" => translation_get("meta_description")
     )));
     $glob_top = markdown_read("global", "top");
-    if ($glob_top != "The post does not exist.") {
+    if ($glob_top != "The post does not exist." && $current == "home") {
         echo("<div class='col-12 glob-top'>" . $glob_top . "</div>");
+    }
+    if ($glob_top != "The post does not exist." && $current != "home") {
+        if (isset($_SERVER['PATH_INFO'])) {
+            $url = htmlspecialchars($_SERVER['PATH_INFO']);
+            $url = substr($url, 1);
+            $url = explode("/", $url);
+            if ($url[0] != "post" && $url[0] != "vid") $m_bottom = 30; else $m_bottom = 0;
+        }
+        else $m_bottom = 30;
+        echo("<div class='col-12 glob-top' style='margin-bottom: " . $m_bottom . "px'>" . $glob_top . "</div>");
     }
     if ($glob_top == "The post does not exist." && explode("?", $_SERVER['REQUEST_URI'])[0] != "/") {
         if (isset($_SERVER['PATH_INFO'])) {

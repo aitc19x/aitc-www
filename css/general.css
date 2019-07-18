@@ -24,15 +24,30 @@ code, pre {
     background-color: orange;
     color: #000000;
     transition: all 0.25s ease;
+    z-index: 200;
+}
+
+.glob-top p {
+    margin: 0 0 0 0;
 }
 
 .navbar-brand-img {
     height: 45px;
 }
 
-.carousel-item {
+.carousel-inner {
     max-height: 40vh;
     overflow: hidden;
+}
+
+.carousel-item {
+    max-height: inherit;
+    transform: translateY(50%);
+}
+
+.carousel-item > img {
+    display: block;
+    transform: translateY(-50%);
 }
 
 .home-block {

@@ -1,0 +1,1 @@
+心は京アニと共に。 [#PrayForKyoani](https://twitter.com/i/events/1151742358645399553)
