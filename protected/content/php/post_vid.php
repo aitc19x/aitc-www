@@ -3,12 +3,12 @@
     include_once($_SERVER['DOCUMENT_ROOT'] . "/protected/lib/php/translation.php");
     include_once($_SERVER['DOCUMENT_ROOT'] . "/protected/lib/php/post.php");
     include_once($_SERVER['DOCUMENT_ROOT'] . "/protected/lib/php/video.php");
-    header('Access-Control-Allow-Origin: *');
     header_show(translation_get($type), $type, array(
         "home" => "/",
         "news" => "/news",
         "technology" => "/technology",
         "ondemand" => "/ondemand",
+        "live" => "/live",
         "easyeng" => "/easyeng",
         "about" => "/about"
     ));

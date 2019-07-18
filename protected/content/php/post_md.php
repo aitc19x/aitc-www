@@ -7,6 +7,7 @@
         "news" => "/news",
         "technology" => "/technology",
         "ondemand" => "/ondemand",
+        "live" => "/live",
         "easyeng" => "/easyeng",
         "about" => "/about"
     ));
@@ -17,7 +18,7 @@
     if (isset($_GET["page"])) $url = $type . "/page/" . $_GET["page"];
     else $url = $type;
     if (markdown_read($type, $id) == "The post does not exist.") $id = "top-" . $id;
-    if ($type != "about") echo(dynamic_element_handle("post-header", array(
+    if (!isset($fixed_page)) echo(dynamic_element_handle("post-header", array(
         "mark_start" => (substr($id, 0, 3) != "top" ? "" : "<mark>"),
         "mark_end" => (substr($id, 0, 3) != "top" ? "" : "</mark>"),
         "back" => translation_get("back"),

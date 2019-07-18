@@ -20,6 +20,6 @@ if (!isset($_COOKIE["lang"])) {
     $url = htmlspecialchars($_SERVER['REQUEST_URI']);
     $url = substr($url, 7);
     $url = explode("/", $url);
-    $type = "about"; $id = "about";
+    $type = "live"; $id = "live";
     if ($url == array(null)) include_once($_SERVER['DOCUMENT_ROOT'] . "/protected/content/php/post_fixed.php");
 }

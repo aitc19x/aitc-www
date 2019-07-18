@@ -30,6 +30,11 @@ code, pre {
     height: 45px;
 }
 
+.carousel-item {
+    max-height: 40vh;
+    overflow: hidden;
+}
+
 .home-block {
     position: relative;
     display: inline-block;

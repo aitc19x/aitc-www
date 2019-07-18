@@ -11,9 +11,8 @@ if (file_exists($file)) {
     header('Content-Type: image/png');
     header('Content-Length: ' . filesize($file));
     readfile($file);
-    exit;
 } else {
     $file = $_SERVER['DOCUMENT_ROOT'] . "/protected/content/post/top-" . $url[0] . "/" . $url[1] . "/" . $url[2];
     if (file_exists($file)) goto top_back;
-    echo("File not found.");
+    http_response_code(403);
 }

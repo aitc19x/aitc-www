@@ -38,7 +38,8 @@ $translation_japanese = array(
     "top" => "おすすめ",
     "explore" => "AITCを探索する",
     "meta_description" => "学生オタクを組むパソコン部",
-    "easyeng" => "やさしい英語"
+    "easyeng" => "やさしい英語",
+    "live" => "ライブ"
 );
 
 $translation_chinese = array(
@@ -58,7 +59,8 @@ $translation_chinese = array(
     "top" => "置顶",
     "explore" => "深入了解 AITC",
     "meta_description" => "一个由学生极客组成的IT社团",
-    "easyeng" => "简明英语"
+    "easyeng" => "简明英语",
+    "live" => "直播"
 );
 
 $translation_english = array(
@@ -78,7 +80,8 @@ $translation_english = array(
     "top" => "Featured",
     "explore" => "Explore AITC",
     "meta_description" => "An IT club with zealous student geek members",
-    "easyeng" => "Easy English"
+    "easyeng" => "Easy English",
+    "live" => "Live"
 );
 
 function translation_get(string $id) {

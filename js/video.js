@@ -20,3 +20,21 @@ function livePlay(url) {
         video.play();
     }
 }
+
+function livePage() {
+    if(Hls.isSupported()) {
+        var hls = new Hls();
+        var video = document.getElementById('videoElement');
+        hls.loadSource("https://hls.cstu.gq/aitc/index.m3u8");
+        hls.attachMedia(video);
+        hls.on(Hls.Events.ERROR, function (event, data) {
+            if (data.fatal && data.type == Hls.ErrorTypes.NETWORK_ERROR) {
+                hls.destroy();
+                $("#videoContainer").hide();
+                $("#videoError").show();
+                return;
+            }
+        });
+        video.play();
+    }
+}
