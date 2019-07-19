@@ -36,4 +36,5 @@ $(".home-block").hover(function() {
 
 $(".navbar-toggler").click(function() {
     $(".post-sep").toggle();
+    $(".glob-top-sep").toggle();
 });
