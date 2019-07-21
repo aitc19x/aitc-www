@@ -1,4 +1,4 @@
-# 2019-2020年部活プラン
+# 2019-2020年パソコン部プラン
 
 作者：Ruixuan Tu
 
@@ -9,7 +9,7 @@
 ### Administrative Members
 
 - Chief Executive: Ruixuan Tu
-- Assistant Executive: Yibo Wu
+- Head of Technology Dept.: Yibo Wu
 - Head of Propaganda Dept.: William Peng
 
 ### Available Courses

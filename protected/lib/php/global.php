@@ -49,7 +49,7 @@ function header_show(string $title, string $current, array $links) {
             $m_bottom = 30;
             $p_top = 50;
         }
-        echo("<div class='col-12 glob-top fixed-top' style='margin-top: 70px; margin-bottom: " . $m_bottom . "px;'>" . $glob_top . "</div>");
+        echo("<div class='col-12 glob-top fixed-top d-print-none' style='margin-top: 70px; margin-bottom: " . $m_bottom . "px;'>" . $glob_top . "</div>");
         echo("<div style='padding-top: " . $p_top . "px; display: flex;' class='col-12 glob-top-sep'></div>");
     }
     if ($glob_top == "The post does not exist." && explode("?", $_SERVER['REQUEST_URI'])[0] != "/") {

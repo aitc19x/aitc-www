@@ -1,4 +1,4 @@
-# Plan of Club Activities 2019-2020
+# Plan of AITC 2019-2020
 
 Author: Ruixuan Tu
 
@@ -7,7 +7,7 @@ Author: Ruixuan Tu
 ### Administrative Members
 
 - Chief Executive: Ruixuan Tu
-- Assistant Executive: Yibo Wu
+- Head of Technology Dept.: Yibo Wu
 - Head of Propaganda Dept.: William Peng
 
 ### Available Courses

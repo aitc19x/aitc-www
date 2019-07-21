@@ -6,7 +6,7 @@
 
 ---
 
-No matter who you are, you can find a proper place for you in our club.
+No matter who you are, we welcome you to be a part of us.
 
 ---
 

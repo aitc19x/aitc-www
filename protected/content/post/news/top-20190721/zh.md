@@ -7,7 +7,7 @@
 ### 管理人员
 
 - 社长：Ruixuan Tu
-- 社长助理：Yibo Wu
+- 技术部长：Yibo Wu
 - 宣传部长：William Peng
 
 ### 开设课程
