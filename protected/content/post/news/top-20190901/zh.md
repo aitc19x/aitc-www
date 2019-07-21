@@ -57,8 +57,4 @@
 
 ---
 
-社团活动地点：江西师大附中滨江校区国际部自习教室或四楼会议室、Zoom、YouTube
-
----
-
 MS Word文档下载：[English](/attachment/news/20190714/Application%20Form.docx) [日本語](/attachment/news/20190714/入部届.docx) [中文](/attachment/news/20190714/申请书.docx)

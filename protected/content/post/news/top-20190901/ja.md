@@ -1,8 +1,8 @@
 # 部員になりしよう
 
-Author: Ruixuan Tu
+作者：Ruixuan Tu
 
-この文章は今日本語バージョンがありません。英語バージョンは使っています。ご了承ください。
+この文章は日本語バージョンがまだありません。英語バージョンは使っています。ご了承ください。
 
 ---
 
@@ -56,10 +56,6 @@ Contents should be included in application email:
 - Your reason to enter our club
 
 If you are confusing with the format above, you can fill the MS Word document below, export it to PDF, and send the result file to us.
-
----
-
-Places of activities: self-studying rooms of AMSJXNU Sino-U.S. Program or meeting rooms of AMSJXNU Binjiang Campus, Zoom, YouTube
 
 ---
 

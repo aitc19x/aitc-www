@@ -57,10 +57,6 @@ If you are confusing with the format above, you can fill the MS Word document be
 
 ---
 
-Places of activities: self-studying rooms of AMSJXNU Sino-U.S. Program or meeting rooms of AMSJXNU Binjiang Campus, Zoom, YouTube
-
----
-
 Download Links of Application Form in MS Word format:
 
 [English](/attachment/news/20190714/Application%20Form.docx) [日本語](/attachment/news/20190714/入部届.docx) [中文](/attachment/news/20190714/申请书.docx)
