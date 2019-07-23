@@ -7,7 +7,7 @@
         "technology" => "/technology",
         "ondemand" => "/ondemand",
         "live" => "/live",
-        "easyeng" => "/easyeng",
+        "tv" => "/tv",
         "about" => "/about"
     ));
 ?>
@@ -43,9 +43,9 @@
             </a>
         </div>
         <div class="col-4 col-md-2 home-block">
-            <a href="/easyeng">
-                <img src="/img/home-easyeng.png">
-                <span><?php echo(translation_get("easyeng")) ?></span>
+            <a href="/tv">
+                <img src="/img/home-tv.png">
+                <span><?php echo(translation_get("tv")) ?></span>
             </a>
         </div>
         <div class="col-4 col-md-2 home-block">

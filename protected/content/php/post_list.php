@@ -5,7 +5,7 @@
     function vid_or_post($id) {
         global $type;
         if ($type == "ondemand") return true;
-        if ($type == "easyeng") {
+        if ($type == "tv") {
             if (markdown_read($type, $id) != "The post does not exist.") return false;
             return true;
         }
@@ -18,7 +18,7 @@
         "technology" => "/technology",
         "ondemand" => "/ondemand",
         "live" => "/live",
-        "easyeng" => "/easyeng",
+        "tv" => "/tv",
         "about" => "/about"
     ));
 ?>
@@ -27,6 +27,13 @@
     <div class="col-md-8 mx-auto">
         <h1><?php echo(translation_get($type)) ?></h1><br>
         <?php
+            if ($type == "tv" && !isset($_COOKIE["tv-notice"])) {
+                echo(dynamic_element_handle("tv-notice", array(
+                    "title" => translation_get("notice"),
+                    "body" => translation_get("tv_notice"),
+                    "ok" => translation_get("ok")
+                )));
+            }
             if (!isset($page)) $page = 1;
             $list = markdown_list($type);
             for ($index = 0; $index < sizeof($list); $index++) {

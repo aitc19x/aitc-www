@@ -15,7 +15,6 @@ function dynamic_element_handle(string $id, array $elements) {
         $replace[] = $value;
     }
     $result = str_replace($search, $replace, $content);
-    $result = preg_replace("{{.*}}", "", $result);
     return $result;
 }
 

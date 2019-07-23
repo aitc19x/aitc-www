@@ -6,7 +6,7 @@
         "technology" => "/technology",
         "ondemand" => "/ondemand",
         "live" => "/live",
-        "easyeng" => "/easyeng",
+        "tv" => "/tv",
         "about" => "/about"
     ));
 ?>

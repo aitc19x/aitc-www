@@ -3,19 +3,6 @@
     include_once($_SERVER['DOCUMENT_ROOT'] . "/protected/lib/php/translation.php");
     include_once($_SERVER['DOCUMENT_ROOT'] . "/protected/lib/php/post.php");
     include_once($_SERVER['DOCUMENT_ROOT'] . "/protected/lib/php/video.php");
-    header_show(translation_get($type), $type, array(
-        "home" => "/",
-        "news" => "/news",
-        "technology" => "/technology",
-        "ondemand" => "/ondemand",
-        "live" => "/live",
-        "easyeng" => "/easyeng",
-        "about" => "/about"
-    ));
-?>
-
-<body>
-    <?php
     $flag = false;
     if (isset($_GET["page"])) $url = $type . "/page/" . $_GET["page"];
     else $url = $type;
@@ -26,16 +13,30 @@
     }
     if ($meta == null) $flag = true;
     if ($meta["title-" . translation_get("lang_code")] == "" && !$flag) $flag = true;
-    $m_top = (markdown_read("global", "top") == "The post does not exist.") ? 70 : 90;
-    echo(dynamic_element_handle("post-header", array(
-        "mark_start" => (substr($id, 0, 3) != "top" ? "" : "<mark>"),
-        "mark_end" => (substr($id, 0, 3) != "top" ? "" : "</mark>"),
-        "back" => translation_get("back"),
-        "type" => (substr($id, 0, 3) != "top" ? "" : translation_get("top") . " ") . translation_get($type),
-        "title" => $meta["title-" . translation_get("lang_code")],
-        "url" => $url,
-        "m_top" => $m_top
-    )));
+    if (!$flag) $title_prefix = post_meta_get($type, $id)["title-" . translation_get("lang_code")] . " - "; else $title_prefix = "";
+    header_show($title_prefix . translation_get($type), $type, array(
+        "home" => "/",
+        "news" => "/news",
+        "technology" => "/technology",
+        "ondemand" => "/ondemand",
+        "live" => "/live",
+        "tv" => "/tv",
+        "about" => "/about"
+    ));
+?>
+
+<body>
+    <?php
+        $m_top = (markdown_read("global", "top") == "The post does not exist.") ? 70 : 90;
+        echo(dynamic_element_handle("post-header", array(
+            "mark_start" => (substr($id, 0, 3) != "top" ? "" : "<mark>"),
+            "mark_end" => (substr($id, 0, 3) != "top" ? "" : "</mark>"),
+            "back" => translation_get("back"),
+            "type" => (substr($id, 0, 3) != "top" ? "" : translation_get("top") . " ") . translation_get($type),
+            "title" => $meta["title-" . translation_get("lang_code")],
+            "url" => $url,
+            "m_top" => $m_top
+        )));
     ?>
     <div class="col-md-8 mx-auto">
         <?php
@@ -72,7 +73,7 @@
                         break;
                 }
             }
-            else if ($type == "easyeng" && !$flag) {
+            else if ($type == "tv" && !$flag) {
                 if (isset($meta["embed-youtube"])) {
                     echo(dynamic_element_handle("vid-glob", array(
                         "vid_url" => $meta["embed-youtube"]

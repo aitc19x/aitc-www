@@ -38,8 +38,11 @@ $translation_japanese = array(
     "top" => "おすすめ",
     "explore" => "AITCを探索する",
     "meta_description" => "学生オタクを組むパソコン部",
-    "easyeng" => "やさしい英語",
-    "live" => "ライブ"
+    "tv" => "テレビ",
+    "live" => "ライブ",
+    "notice" => "お知らせ",
+    "ok" => "はい",
+    "tv_notice" => "これらのチャンネルの著作権がありませんが、学習・研究以外で使用することは禁止です。"
 );
 
 $translation_chinese = array(
@@ -59,8 +62,11 @@ $translation_chinese = array(
     "top" => "置顶",
     "explore" => "深入了解 AITC",
     "meta_description" => "一个由学生极客组成的IT社团",
-    "easyeng" => "简明英语",
-    "live" => "直播"
+    "tv" => "电视",
+    "live" => "直播",
+    "notice" => "请注意",
+    "ok" => "好",
+    "tv_notice" => "这些频道的版权归版权方所有，仅供个人学习研究使用。"
 );
 
 $translation_english = array(
@@ -80,8 +86,11 @@ $translation_english = array(
     "top" => "Featured",
     "explore" => "Explore AITC",
     "meta_description" => "An IT club with zealous student geek members",
-    "easyeng" => "Easy English",
-    "live" => "Live"
+    "tv" => "TV",
+    "live" => "Live",
+    "notice" => "Notice",
+    "ok" => "OK",
+    "tv_notice" => "We have no copyright on these channels, please use these resources only for studying or researching."
 );
 
 function translation_get(string $id) {

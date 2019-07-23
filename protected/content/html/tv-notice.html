@@ -1,0 +1,22 @@
+<div class="modal fade" id="tvNotice" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">{{ title }}</h5>
+            </div>
+            <div class="modal-body">
+                {{ body }}
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="tv_notice_complete()">{{ ok }}</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function tv_notice_complete() {
+        Cookies.set("tv-notice", "true", { expires: 7, path: "/" });
+    }
+    $("#tvNotice").modal('show')
+</script>

@@ -11,7 +11,7 @@ if ((strpos($_SERVER["HTTP_REFERER"], "http://localhost") === 0 || strpos($_SERV
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     $data =  curl_exec($ch);
     curl_close($ch);
-    $data = str_replace("https://nasa-i.akamaihd.net/hls/live/253565/NASA-NTV1-Public/", "/easyeng/nasa.php?req=", $data);
+    $data = str_replace("https://nasa-i.akamaihd.net/hls/live/253565/NASA-NTV1-Public/", "/tv/nasa.php?req=", $data);
     echo($data);
 } else {
     header('HTTP/1.0 403 Forbidden');

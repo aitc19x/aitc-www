@@ -2,5 +2,5 @@
     "title-en": "",
     "title-zh": "NASA TV",
     "title-ja": "",
-    "url": "/easyeng/nasa.php?req=master.m3u8"
+    "url": "/tv/nasa.php?req=master.m3u8"
 }
