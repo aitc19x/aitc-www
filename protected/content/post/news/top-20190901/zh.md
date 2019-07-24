@@ -57,4 +57,4 @@
 
 ---
 
-MS Word文档下载：[English](/attachment/news/20190714/Application%20Form.docx) [日本語](/attachment/news/20190714/入部届.docx) [中文](/attachment/news/20190714/申请书.docx)
+MS Word文档下载：[English](/attachment/news/20190901/Application%20Form.docx) [日本語](/attachment/news/20190901/入部届.docx) [中文](/attachment/news/20190901/申请书.docx)
