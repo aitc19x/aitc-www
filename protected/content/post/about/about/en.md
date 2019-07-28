@@ -10,18 +10,22 @@ Hello, here is AMSJXNU IT Club in China. We are studying competitive programming
 #### Thanks
 - BiliBili
 - Bootstrap
-- CBSN
-- CGTN
 - flv.js
 - Font Awesome
 - hls.js
 - jQuery
 - KanBiliBili API
-- NASA TV
-- NBC News
 - nginx-http-flv-module
-- NHK WORLD-JAPAN
 - Parsedown
 - Plyr
-- VOA
+- TV: CBSN
+- TV: CGTN
+- TV: Fuji TV
+- TV: NASA TV
+- TV: NBC News
+- TV: NHK
+- TV: TBS
+- TV: Tokyo MX
+- TV: TV Asahi
+- TV: VOA
 - YouTube
