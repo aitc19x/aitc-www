@@ -37,12 +37,17 @@ $translation_japanese = array(
     "back" => "戻す",
     "top" => "おすすめ",
     "explore" => "AITCを探索する",
-    "meta_description" => "学生オタクを組むパソコン部",
+    "meta_description" => "学生プログラマーを組むパソコン部",
     "tv" => "テレビ",
     "live" => "ライブ",
     "notice" => "お知らせ",
     "ok" => "はい",
-    "tv_notice" => "これらのチャンネルの著作権がありませんが、学習・研究以外で使用することは禁止です。"
+    "tv_notice" => "これらのチャンネルの著作権がありませんが、学習・研究以外で使用することは禁止です。",
+    "error_occurred" => "エラーが発生しました。",
+    "live_error_msg" => "インタネット接続・ライブ計画をご確認ください。<br>ページを再読み込みするとやり直してきます。",
+    "message" => "メッセージ",
+    "send" => "送る",
+    "sync" => "同期する"
 );
 
 $translation_chinese = array(
@@ -66,7 +71,12 @@ $translation_chinese = array(
     "live" => "直播",
     "notice" => "请注意",
     "ok" => "好",
-    "tv_notice" => "这些频道的版权归版权方所有，仅供个人学习研究使用。"
+    "tv_notice" => "这些频道的版权归版权方所有，仅供个人学习研究使用。",
+    "error_occurred" => "发生了错误。",
+    "live_error_msg" => "请检查您的因特网连接和直播安排。<br>您可以通过刷新该页面进行重试。",
+    "message" => "消息",
+    "send" => "发送",
+    "sync" => "同步"
 );
 
 $translation_english = array(
@@ -90,7 +100,12 @@ $translation_english = array(
     "live" => "Live",
     "notice" => "Notice",
     "ok" => "OK",
-    "tv_notice" => "We have no copyright on these channels, please use these resources only for studying or researching."
+    "tv_notice" => "We have no copyright on these channels, please use these resources only for studying or researching.",
+    "error_occurred" => "An error has ocurred.",
+    "live_error_msg" => "Please check your network connection and the schedule of the live.<br>You can retry by refreshing this page.",
+    "message" => "Message",
+    "send" => "Send",
+    "sync" => "Synchronize"
 );
 
 function translation_get(string $id) {

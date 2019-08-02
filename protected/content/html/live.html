@@ -1,0 +1,25 @@
+<h1>{{ live-title }}</h1>
+
+<div class="text-center" id="videoError" style="display:none">
+<h3>{{ error-occurred }}</h3>
+{{ live-error-msg }}
+</div>
+<div class="row border border-secondary rounded" id="liveWindow">
+    <div class="embed-responsive embed-responsive-16by9 col-9 live-vid" id="videoContainer">
+        <video class="embed-responsive-item" id="videoElement" controls allowfullscreen></video>
+    </div>
+    <script src="/js/chat.js"></script>
+    <div id="sidebar" class="col-3 border border-secondary rounded-right">
+        <button class="btn btn-outline-secondary my-1" type="button" onclick="liveSync();">{{ sync }}</button>
+        <div id="messageBox" class="my-1"></div>
+        <div id="messageInput" class="input-group my-1">
+            <input id="msgInput" type="text" class="form-control" placeholder="{{ message }}">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" onclick="pushMessage();">{{ send }}</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        livePage();
+    </script>
+</div>

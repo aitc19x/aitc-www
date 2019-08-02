@@ -82,6 +82,32 @@ code, pre {
     background-color: #e5e7e9;
 }
 
+#sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.live-vid {
+    flex: 1;
+}
+
+#messageBox {
+    display: block;
+    overflow: auto;
+    overflow-y: scroll;
+    flex: 1;
+    margin: 0;
+}
+
+#messageBox > p {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+#messageInput {
+    display: flex;
+}
+
 @media (min-width: 455px) {
     .header-lg {
         display: inline-block;
