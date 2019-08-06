@@ -8,11 +8,11 @@ Author: Ruixuan Tu
 
 - Chief Executive: Ruixuan Tu
 - Head of Technology Dept.: Yibo Wu
-- Head of Propaganda Dept.: William Peng
+- Head of Propaganda Dept.: Niko Cheng
 
 ### Available Courses
 
-※ Principals of the course are in the brackets. T means Ruixuan Tu; W means Yibo Wu; P means William Peng.
+※ Principals of the course are in the brackets. T means Ruixuan Tu; W means Yibo Wu.
 
 - American
   - AP Computer Science A (W)
@@ -30,8 +30,6 @@ Author: Ruixuan Tu
 - Advanced
   - C++ Algorithms and Data Structures (T&W)
   - Principles of Computer Networks (T)
-- Others
-  - Easy Japanese (P&T)
 
 ### Projects
 - GPA System of Sino-U.S. Program

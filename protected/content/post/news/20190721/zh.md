@@ -8,11 +8,11 @@
 
 - 社长：Ruixuan Tu
 - 技术部长：Yibo Wu
-- 宣传部长：William Peng
+- 宣传部长：Niko Cheng
 
 ### 开设课程
 
-※ 括号内表示课程负责人，T为Ruixuan Tu、W为Yibo Wu、P为William Peng。
+※ 括号内表示课程负责人，T为Ruixuan Tu、W为Yibo Wu。
 
 - 美国留学课程
   - AP计算机科学A（W）
@@ -30,8 +30,6 @@
 - 素养提高课程
   - C++算法和数据结构（算法竞赛）（T&W）
   - 计算机网络理论（T）
-- 其他课程
-  - 简明日语（P&T）
 
 ### 项目
 - 国际部GPA系统

@@ -2,90 +2,87 @@
 
 Author: Ruixuan Tu
 
-We currently have no English translation for this page, so we are using Chinese for a short time.
-
 ---
 
-### 人员安排
-- 负责人：Ruixuan Tu
-- 学员：3人以上，最终选择2人随负责人去武汉英中国际学校参加正式比赛
+### Member Arrangement
+- Header: Ruixuan Tu
+- Students: above 3, and 2 will be chosen to attend with Ruixuan Tu the contest in WHBC International School
 
-### 比赛信息
-- 组别：高级（Senior）
-- 语言：英语
-- 区域：中国区
-- 组队：团队赛，每队3人；笔试单人完成，但影响团队整体得分；机试团队完成，但不能有过多交流
-- 组成：每学年4轮积分赛和1轮全明星总决赛；第一轮积分赛为预赛，决定是否晋级后面4轮比赛
-- 晋级
-  - 后3轮积分赛：团队积分在前70%，预赛积分仍计入总分
-  - 全明星总决赛：团队在积分赛中获奖
-- 积分：个人积分（个人笔试得分）+团队得分/团队总人数（(个人笔试得分+团队机试得分*团队总人数)/团队总人数）
-- 排序：先个人笔试后团队机试（积分赛），先编程后笔试（全明星赛）
-- 时间（参考）
-  - 第1轮积分赛：2019年12月20日
-  - 第2轮积分赛：2020年2月7日
-  - 第3轮积分赛：2020年3月17日
-  - 第4轮积分赛：2020年4月10日
-  - 全明星赛：2020年5月23日
-- 要求
-  - 每个团队只能携带一台电脑
-  - 编程语言不限
-  - 运行时间不限
-  - 内存不限
-  - 电脑上不可以使用可移动存储设备
-  - 可以使用电脑上预置的资料
-  - 只能在机试时使用电脑
-  - 电脑理论上不能联网
-- 个人奖项
-  - 个人卓越奖：4轮积分赛均满分
-  - 个人高分奖：个人笔试积分排名前20%
-- 团队奖项
-  - 团队金牌：积分排名前5%
-  - 团队银牌：积分排名前5-15%
-  - 团队铜牌：积分排名前15-30%
-  - 团队优秀奖：积分排名前30-50%
-- 全明星赛奖项
-  - 冠军：总分第一名团队
-  - 亚军：总分第二名团队
-  - 季军：总分第三名团队
-  - 优胜队：总分排名前40%团队
-  - 如果平局则依次优先笔试和编程题难度评奖
-- 承办方
+### Contest Information
+- Division: Senior
+- Language: English (U.S.)
+- Region: China
+- Team: 3 persons per team to complete the programming task
+- Composition: 4 ordinary contests and 1 all-star contest every school year
+- Attending Further Contest(s)
+  - next 3 ordinary contests: Team Points is in top 70%
+  - all-star contest: getting a prize in ordinary contests
+- Pointing: Personal Points and Team Points
+- Time Arrangement: programming after Writing (ordinary), inversed for the all-star contest
+- Helding Time
+  - Ordinary Round 1: December 20, 2019
+  - Ordinary Round 2: February 7, 2020
+  - Ordinary Round 3: March 17, 2020
+  - Ordinary Round 4: April 10, 2020
+  - All-star Contest: May 23, 2020
+- Requirements
+  - only 1 computer is allowed to bring
+  - unlimited programming language
+  - unlimited executing time
+  - unlimited memory
+  - prohibited access of removable devices
+  - access of materials prestored on the computer
+  - using the computer only for the programming task
+  - prohibited access of internet
+- Personal Prizes
+  - Excellent: full Personal Points
+  - High: Personal Points is in top 20%
+- Team Prizes
+  - Gold: Team Points is in top 5%
+  - Silver: Team Points is in top 5-15%
+  - Bronze: Team Points is in top 15-30%
+  - Good: Team Points is in top 30-50%
+- All-star Prizes
+  - Champion: Team Points is the top 1
+  - First Runner-up: Team Points is the top 2
+  - Second Runner-up: Team Points is the top 3
+  - Good: Team Points is in top 40%
+- China Official
   - ASDAN China
-- 链接
-  - [海报](https://www.acsl.org/19-20/new-flyer_19_20.pdf)
+- Links
+  - [Poster](https://www.acsl.org/19-20/new-flyer_19_20.pdf)
   - [ASDAN ACSL](http://www.seedasdan.org/acsl/)
   - [Global ACSL](https://www.acsl.org/index.html)
 
-### 课程安排
+### Curriculum
 
-Ruixuan Tu负责的课程使用英语授课，Yibo Wu负责的课程使用汉语授课
+Ruixuan Tu teaches in English, and Yibo Wu teaches in Chinese Mandarin
 
-- 预备
-  - AP计算机科学A 第一期（2月-8月）（Ruixuan Tu）
-  - AP计算机科学A 第二期（8月-4月）（Yibo Wu）
-  - C++算法和数据结构 入门（8月-10月）（Ruixuan Tu）
-  - 练习（7月-5月）（Yibo Wu & Ruixuan Tu）
-- 积分一试
-  - 计算机进制（7月）（Ruixuan Tu）
-  - 递归函数（8月）（Yibo Wu）
-  - 程序阅读（8月）（Ruixuan Tu）
-- 积分二试
-  - 前缀/中缀/后缀表达式（9月）（Ruixuan Tu）
-  - 二进制串处理（9月-11月）（Ruixuan Tu）
-  - Lisp语言（8月）（Ruixuan Tu）
-- 积分三试
-  - 布尔代数（9月-11月）（Ruixuan Tu）
-  - 数据结构（9月-10月）（Ruixuan Tu）
-  - 有限自动机和正则表达式（12月-2月）（Ruixuan Tu）
-- 积分四试
-  - 图论（9月-11月）（Ruixuan Tu）
-  - 电路（12月-2月）（Ruixuan Tu）
-  - 汇编语言（8月）（Ruixuan Tu）
-- 全明星赛
-  - ACSL+进阶（3月-5月）（Ruixuan Tu）
-  - C++算法和数据结构 初步（10月-2月）（Ruixuan Tu）
+- Preparation
+  - AP Computer Science A Session 1 (Feb - Aug) (Ruixuan Tu)
+  - AP Computer Science A Session 2 (Aug - Apr) (Yibo Wu)
+  - Introduction of C++ Algorithms and Data Structures (Aug - Oct) (Ruixuan Tu)
+  - Practice (Jul - May) (Yibo Wu & Ruixuan Tu)
+- Ordinary Round 1
+  - Computer Number Systems (Jul) (Ruixuan Tu)
+  - Recursive Functions (Aug) (Yibo Wu)
+  - Program Reading (Aug) (Ruixuan Tu)
+- Ordinary Round 2
+  - Pre/Post/Infix Notation (Sept) (Ruixuan Tu)
+  - Bit String Flicking (Sept - Nov) (Ruixuan Tu)
+  - Lisp Language (Aug) (Ruixuan Tu)
+- Ordinary Round 3
+  - Boolean Algebra (Sept - Nov) (Ruixuan Tu)
+  - Data Structues for ACSL (Sept - Oct) (Ruixuan Tu)
+  - FSA/Regular Expressions (Dec - Feb) (Ruixuan Tu)
+- Ordinary Round 4
+  - Graph Theories for ACSL (Sept - Nov) (Ruixuan Tu)
+  - Digital Electronics (Dec - Feb) (Ruixuan Tu)
+  - Assembly Language (Aug) (Ruixuan Tu)
+- All-star Contest
+  - ACSL+ Advanced Series (Mar - May) (Ruixuan Tu)
+  - Basics of C++ Algorithms and Data Structures (Oct - Feb) (Ruixuan Tu)
 
-### 报名方式
-- 在IM软件上联系Ruixuan Tu
-- 电邮amsjxnu-itclub@mail.cstu.gq
+### Enrollment
+- Contact Ruixuan Tu by IM
+- Email amsjxnu-itclub@mail.cstu.gq
