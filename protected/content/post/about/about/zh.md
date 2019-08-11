@@ -7,6 +7,11 @@
 
 <div class="mt-3"></div>
 
+#### 相关组织
+- [江西师大附中日本文化研究社](https://ank.cstu.gq)
+- [Crystal 计算机工作室](https://ccs.cstu.gq)
+- [Crystal 工作室群](https://www.cstu.gq)
+
 #### 致谢
 - BiliBili
 - Bootstrap
@@ -15,17 +20,13 @@
 - hls.js
 - jQuery
 - KanBiliBili API
-- nginx-http-flv-module
+- nginx-rtmp-module
 - Parsedown
 - Plyr
 - TV: CBSN
 - TV: CGTN
-- TV: Fuji TV
 - TV: NASA TV
 - TV: NBC News
 - TV: NHK
-- TV: TBS
-- TV: Tokyo MX
-- TV: TV Asahi
 - TV: VOA
 - YouTube

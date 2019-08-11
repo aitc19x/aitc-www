@@ -7,6 +7,11 @@ Hello, here is AMSJXNU IT Club in China. We are studying competitive programming
 
 <div class="mt-3"></div>
 
+#### Related Organizations
+- [AMSJXNU Nippon Bunka Kenkyu Bu (Japan Culture Research)](https://ank.cstu.gq)
+- [Crystal Computer Studio](https://ccs.cstu.gq)
+- [Crystal Studios](https://www.cstu.gq)
+
 #### Thanks
 - BiliBili
 - Bootstrap

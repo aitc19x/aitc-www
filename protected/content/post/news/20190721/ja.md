@@ -10,7 +10,7 @@
 
 - Chief Executive: Ruixuan Tu
 - Head of Technology Dept.: Yibo Wu
-- Head of Propaganda Dept.: Niko Cheng
+- Head of Propaganda Dept.: William Peng
 
 ### Available Courses
 
