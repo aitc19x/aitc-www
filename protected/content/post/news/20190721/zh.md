@@ -8,7 +8,7 @@
 
 - 社长：Ruixuan Tu
 - 技术部长：Yibo Wu
-- 宣传部长：Niko Cheng
+- 宣传部长：William Peng
 
 ### 开设课程
 
