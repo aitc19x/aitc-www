@@ -29,6 +29,7 @@ Author: Ruixuan Tu
   - Coding Collaboration (Git & Markdown) (W&T)
 - Advanced
   - C++ Algorithms and Data Structures (T&W)
+  - Connecting Software and Hardware (T)
   - Principles of Computer Networks (T)
 
 ### Projects
