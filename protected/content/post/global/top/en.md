@@ -1,1 +1,0 @@
-Pray for Kyoto Animation. [#PrayForKyoani](https://twitter.com/i/events/1151742358645399553)

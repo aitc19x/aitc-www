@@ -1,1 +1,0 @@
-愿京阿尼安好。 [#PrayForKyoani](https://twitter.com/i/events/1151742358645399553)
