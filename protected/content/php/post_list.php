@@ -46,7 +46,7 @@
             $num_page = (int)(sizeof($list) / 20);
             if (sizeof($list) % 20 != 0 || $num_page == 0) $num_page++;
             for ($index = ($page - 1) * 20; $index < $size; $index++) {
-                card_show($type, $list[$index], array(
+                card_show($type, $list[$index], (isset(post_meta_get($type, $list[$index])["author"]) ? post_meta_get($type, $list[$index])["author"] : null) , array(
                     "view" => "/" . $type . (vid_or_post($list[$index]) ? "/vid/" : "/post/") . str_replace("top-", "", $list[$index])
                 ));
             }

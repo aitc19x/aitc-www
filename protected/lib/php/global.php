@@ -70,11 +70,12 @@ function footer_show() {
     )));
 }
 
-function card_show(string $type, string $id, array $links) {
+function card_show(string $type, string $id, string $author = null, array $links) {
     echo(dynamic_element_handle("card", array(
         "addition" => (substr($id, 0, 3) != "top" ? "" : "card-top"),
         "title" => post_meta_get($type, $id)["title-" . translation_get("lang_code")],
         "subtitle" => (substr($id, 0, 3) != "top" ? date_get(substr($id, 0, 8)) : translation_get("top")),
+        "author" => (isset($author) ? "&nbsp;&nbsp;&nbsp;" . $author : null),
         "links" => card_links_generator($links)
     )));
 }
