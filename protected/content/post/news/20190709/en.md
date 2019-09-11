@@ -1,6 +1,6 @@
 # Site Opening
 
-Author: William Peng, Ruixuan Tu
+Author: Ruixuan Tu
 
 ---
 

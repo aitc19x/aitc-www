@@ -7,8 +7,7 @@
 ### 管理人员
 
 - 社长：Ruixuan Tu
-- 技术部长：Yibo Wu
-- 宣传部长：William Peng
+- 内阁会议
 
 ### 开设课程
 

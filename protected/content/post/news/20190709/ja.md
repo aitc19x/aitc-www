@@ -1,6 +1,6 @@
 # サイトを公開する
 
-作者：William Peng・Ruixuan Tu
+作者：Ruixuan Tu
 
 ---
 
