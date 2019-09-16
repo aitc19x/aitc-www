@@ -47,7 +47,10 @@ $translation_japanese = array(
     "live_error_msg" => "インタネット接続・ライブ計画をご確認ください。<br>ページを再読み込みするとやり直してきます。",
     "message" => "メッセージ",
     "send" => "送る",
-    "sync" => "同期する"
+    "sync" => "同期する",
+    "en" => "英語",
+    "ja" => "日本語",
+    "zh" => "中国語"
 );
 
 $translation_chinese = array(
@@ -76,7 +79,10 @@ $translation_chinese = array(
     "live_error_msg" => "请检查您的因特网连接和直播安排。<br>您可以通过刷新该页面进行重试。",
     "message" => "消息",
     "send" => "发送",
-    "sync" => "同步"
+    "sync" => "同步",
+    "en" => "英语",
+    "ja" => "日语",
+    "zh" => "汉语"
 );
 
 $translation_english = array(
@@ -105,7 +111,10 @@ $translation_english = array(
     "live_error_msg" => "Please check your network connection and the schedule of the live.<br>You can retry by refreshing this page.",
     "message" => "Message",
     "send" => "Send",
-    "sync" => "Synchronize"
+    "sync" => "Synchronize",
+    "en" => "English",
+    "ja" => "Japanese",
+    "zh" => "Chinese"
 );
 
 function translation_get(string $id) {

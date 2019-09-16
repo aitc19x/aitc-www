@@ -1,8 +1,9 @@
 {
-    "title-en": "Introduction of Terminologies and Dev Environment (Mandarin)",
+    "title-en": "Introduction of Terminologies and Dev Environment",
     "title-zh": "术语和开发环境介绍",
-    "title-ja": "専門語と開発環境の紹介（中国語）",
+    "title-ja": "専門語と開発環境の紹介",
     "author": "WetABQ",
+    "lang": "zh",
     "embed-youtube": "RDsU0P55uAg",
     "embed-bilibili": {
         "aid": "65921915",

@@ -42,7 +42,7 @@
 - 在Google Code-in 2018中是KDE Community的Finalist
 - 正在合作发表《Fifth Generation Celluar Network》论文，负责与MEC相关的内容
 - AP计算机科学A在2019年拿到满分5分，AP微积分AB在2019年拿到4分；SAT2数学等级2在2019年拿到790分（满分800）
-- 日语N4已考，等待出分
+- 日语N4已考，已合格
 
 ---
 

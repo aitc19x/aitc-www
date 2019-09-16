@@ -1,8 +1,9 @@
 {
-    "title-en": "Expressions, Basic Graph Theories, and Implementation of Basic Data Structures in ACSL (Mandarin)",
+    "title-en": "Expressions, Basic Graph Theories, and Implementation of Basic Data Structures in ACSL",
     "title-zh": "ACSL+：表达式、基础图论、基础数据结构",
-    "title-ja": "ACSL+：数式・グラフ理論・データ構造（中国語）",
+    "title-ja": "ACSL+：数式・グラフ理論・データ構造",
     "author": "TURX",
+    "lang": "zh",
     "embed-youtube": "V4UW95ebq-k",
     "embed-bilibili": {
         "aid": "43876312",

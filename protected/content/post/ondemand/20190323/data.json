@@ -1,8 +1,9 @@
 {
-    "title-en": "Introduction to Symfony (Mandarin)",
+    "title-en": "Introduction to Symfony",
     "title-zh": "Symfony简单使用",
-    "title-ja": "Symfony基本知識（中国語）",
+    "title-ja": "Symfony基本知識",
     "author": "TURX",
+    "lang": "zh",
     "embed-youtube": "BlS_1imWiB4",
     "embed-bilibili": {
         "aid": "47050282",
