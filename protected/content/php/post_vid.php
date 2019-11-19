@@ -67,8 +67,11 @@
                         )));
                         break;
                     default:
-                        echo(dynamic_element_handle("vid-glob", array(
+                        if (isset($meta["embed-youtube"])) echo(dynamic_element_handle("vid-glob", array(
                             "vid_url" => $meta["embed-youtube"]
+                        )));
+                        else echo(dynamic_element_handle("vid-zh", array(
+                            "vid_url" => bilibili_get($meta["embed-bilibili"]["aid"], $meta["embed-bilibili"]["cid"])
                         )));
                         break;
                 }
