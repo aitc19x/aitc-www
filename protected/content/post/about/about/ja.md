@@ -8,9 +8,10 @@
 <div class="mt-3"></div>
 
 #### 関する組織
-- [江西師範大学附属中米国際高校日本文化研究部](https://ank.cstu.gq)
+- [Crystal日本文化研究グループ](https://ank.cstu.gq)
 - [Crystalコンピュータースタジオ](https://ccs.cstu.gq)
 - [Crystalスタジオグループ](https://www.cstu.gq)
+- [新建二中パソコン部](http://116.62.200.125/)
 
 #### ありがとう
 - BiliBili

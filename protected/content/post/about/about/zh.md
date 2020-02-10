@@ -8,9 +8,10 @@
 <div class="mt-3"></div>
 
 #### 相关组织
-- [江西师大附中日本文化研究社](https://ank.cstu.gq)
+- [Crystal 日本文化研究小组](https://cnk.cstu.gq)
 - [Crystal 计算机工作室](https://ccs.cstu.gq)
 - [Crystal 工作室群](https://www.cstu.gq)
+- [新建二中信息技术小组](http://116.62.200.125/)
 
 #### 致谢
 - BiliBili
