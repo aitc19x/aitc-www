@@ -1,17 +1,16 @@
 # について
 
-こんにちは！こちらは中国に江西師範大学附属中学パソコン部です。私たちは競プロ・アプリ開発を研究しています。いろいろな競争などの活動を参加するのを準備しています。下記の2つフォトは一部の部活内容です。質問があればamsjxnu-itclub@mail.cstu.gqでお問い合わせください。
+こんにちは！こちらは中国に江西師範大学附属中学情報科学部です。私たちは競プロ・アプリ開発などをしています。いろいろなの活動を参加することも準備しています。以下の写真は部活内容の一部です。お問い合わせは turx2003 ＊ gmail.com でお願い致します（＊を@に変えてください）。
 
 <img src="/img/about/about/1" class="img-thumbnail img-fluid col-md-5 p-1 rounded mx-auto">
 <img src="/img/about/about/2" class="img-thumbnail img-fluid col-md-5 p-1 rounded mx-auto">
 
 <div class="mt-3"></div>
 
-#### 関する組織
-- [Crystal日本文化研究グループ](https://ank.cstu.gq)
-- [Crystalコンピュータースタジオ](https://ccs.cstu.gq)
-- [Crystalスタジオグループ](https://www.cstu.gq)
-- [新建二中パソコン部](http://116.62.200.125/)
+#### 関わる組織
+- [Crystal日本文化研究グループ](https://ank.cstu.xyz)
+- [Crystalコンピュータースタジオ](https://ccs.cstu.xyz)
+- [Crystalスタジオグループ](https://www.cstu.xyz)
 
 #### ありがとう
 - BiliBili
@@ -24,14 +23,4 @@
 - nginx-http-flv-module
 - Parsedown
 - Plyr
-- TV: CBSN
-- TV: CGTN
-- TV: Fuji TV
-- TV: NASA TV
-- TV: NBC News
-- TV: NHK
-- TV: TBS
-- TV: Tokyo MX
-- TV: TV Asahi
-- TV: VOA
 - YouTube

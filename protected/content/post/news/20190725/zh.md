@@ -88,4 +88,4 @@ Ruixuan Tu负责的课程使用英语授课，Yibo Wu负责的课程使用汉语
 
 ### 报名方式
 - 在IM软件上联系Ruixuan Tu
-- 电邮amsjxnu-itclub@mail.cstu.gq
+- 电邮amsjxnu-itclub@mail.cstu.xyz

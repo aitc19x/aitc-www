@@ -85,4 +85,4 @@ Ruixuan Tu teaches in English, and Yibo Wu teaches in Chinese Mandarin
 
 ### Enrollment
 - Contact Ruixuan Tu by IM
-- Email amsjxnu-itclub@mail.cstu.gq
+- Email amsjxnu-itclub@mail.cstu.xyz

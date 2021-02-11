@@ -20,7 +20,6 @@
         "technology" => "/technology",
         "ondemand" => "/ondemand",
         "live" => "/live",
-        "tv" => "/tv",
         "about" => "/about"
     ));
 ?>

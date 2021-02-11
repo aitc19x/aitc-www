@@ -98,3 +98,5 @@ modules.xml
 ### User-defined Files ###
 *.old
 /protected/config/db.php
+._*
+Thumbs.db

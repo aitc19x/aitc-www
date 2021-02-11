@@ -2,7 +2,7 @@
 
 include_once($_SERVER['DOCUMENT_ROOT'] . "/protected/lib/php/translation.php");
 
-if ((strpos($_SERVER["HTTP_REFERER"], "http://localhost") === 0 || strpos($_SERVER["HTTP_REFERER"], "https://aitc.cstu.gq") === 0) && translation_get("lang_code") == "zh") {
+if ((strpos($_SERVER["HTTP_REFERER"], "http://localhost") === 0 || strpos($_SERVER["HTTP_REFERER"], "https://aitc.cstu.xyz") === 0) && translation_get("lang_code") == "zh") {
     $url = "https://nasa-i.akamaihd.net/hls/live/253565/NASA-NTV1-Public/" . $_GET["req"];
     $ch = curl_init();
     $headers = array("Referer: https://www.nasa.gov");
